@@ -1,0 +1,74 @@
+﻿Der Buildvorgang wurde am 12.08.2013 14:28:10 gestartet.
+     1>Projekt "Z:\pp\collab\vadmin\sshclient\putty.src_o\WINDOWS\MSVC\PUTTY\putty.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\be_all_s.c ..\..\..\cmdline.c ..\..\..\config.c ..\..\..\cproxy.c ..\..\..\dialog.c ..\..\..\ldisc.c ..\..\..\ldiscucs.c ..\..\..\logging.c ..\..\..\minibidi.c ..\..\..\misc.c ..\..\..\pgssapi.c ..\..\..\pinger.c ..\..\..\portfwd.c ..\..\..\proxy.c ..\..\..\raw.c ..\..\..\rlogin.c ..\..\..\sercfg.c ..\..\..\settings.c ..\..\..\sshaes.c ..\..\..\ssharcf.c ..\..\..\sshblowf.c ..\..\..\sshbn.c ..\..\..\sshcrc.c ..\..\..\sshcrcda.c ..\..\..\sshdes.c ..\..\..\sshdh.c ..\..\..\sshdss.c ..\..\..\sshgssc.c ..\..\..\sshmd5.c ..\..\..\sshpubk.c ..\..\..\sshrand.c ..\..\..\sshrsa.c ..\..\..\sshsh256.c ..\..\..\sshsh512.c ..\..\..\sshsha.c ..\..\..\sshzlib.c ..\..\..\telnet.c ..\..\..\terminal.c ..\..\..\timing.c ..\..\..\tree234.c ..\..\..\version.c ..\..\..\wcwidth.c ..\..\..\wildcard.c ..\..\sizetip.c ..\..\wincfg.c ..\..\winctrls.c ..\..\windefs.c ..\..\windlg.c ..\..\window.c ..\..\wingss.c ..\..\winhandl.c ..\..\winhelp.c ..\..\winjump.c ..\..\winmisc.c ..\..\winnet.c ..\..\winnoise.c ..\..\winpgntc.c ..\..\winprint.c ..\..\winproxy.c ..\..\winser.c ..\..\winstore.c ..\..\wintime.c ..\..\winucs.c ..\..\winutils.c ..\..\winx11.c ..\..\..\x11fwd.c
+         x11fwd.c
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\x11fwd.c(244): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\x11fwd.c(315): warning C4244: 'Funktion': Konvertierung von 'time_t' in 'int', möglicher Datenverlust
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\x11fwd.c(372): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\x11fwd.c(601): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(311): Siehe Deklaration von 'sscanf'
+         winx11.c
+         winutils.c
+         winucs.c
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winucs.c(1125): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winucs.c(1130): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+         wintime.c
+         winstore.c
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winstore.c(300): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winstore.c(301): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(115): Siehe Deklaration von 'strcat'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winstore.c(303): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winstore.c(511): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(115): Siehe Deklaration von 'strcat'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winstore.c(518): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(115): Siehe Deklaration von 'strcat'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winstore.c(538): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(115): Siehe Deklaration von 'strcat'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winstore.c(548): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(115): Siehe Deklaration von 'strcat'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winstore.c(678): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winstore.c(689): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+         winser.c
+         winproxy.c
+         winprint.c
+         winpgntc.c
+         winnoise.c
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winnoise.c(26): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(115): Siehe Deklaration von 'strcat'
+         winnet.c
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winnet.c(491): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191): Siehe Deklaration von 'strncpy'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winnet.c(493): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191): Siehe Deklaration von 'strncpy'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winnet.c(509): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191): Siehe Deklaration von 'strncpy'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winnet.c(521): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191): Siehe Deklaration von 'strncpy'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winnet.c(525): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winnet.c(540): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191): Siehe Deklaration von 'strncpy'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winnet.c(579): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191): Siehe Deklaration von 'strncpy'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winnet.c(581): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191): Siehe Deklaration von 'strncpy'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winnet.c(590): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191): Siehe Deklaration von 'strncpy'
+     1>z:\pp\collab\vadmin\sshclient\putty.src_o\windows\winnet.c(593): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191): Siehe Deklaration von 'strncpy'
+         winmisc.c
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): warning MSB4220: Warten auf Abbruch der aktuell ausgeführten Aufgabe "CL".
+     1>Die Erstellung des Projekts "Z:\pp\collab\vadmin\sshclient\putty.src_o\WINDOWS\MSVC\PUTTY\putty.vcxproj" ist abgeschlossen, Build Ziel(e) -- FEHLER.
+
+Fehler beim Buildvorgang.
+
+Verstrichene Zeit 00:02:32.89

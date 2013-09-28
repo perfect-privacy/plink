@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DEFECTS><DEFECT><SFA><FILEPATH>c:\users\oliver\desktop\pptm\putty.src\</FILEPATH><FILENAME>sshprime.c</FILENAME><LINE>1197</LINE><COLUMN>7</COLUMN></SFA><DEFECTCODE>6262</DEFECTCODE><DESCRIPTION>Die Funktion verwendet '78600' Bytes vom Stapel und überschreitet /analyze:stacksize '16384'. Verschieben Sie einige Daten auf den Heap.</DESCRIPTION><FUNCTION>primegen</FUNCTION><DECORATED>primegen</DECORATED><FUNCLINE>1197</FUNCLINE><PATH/></DEFECT></DEFECTS>

@@ -1,0 +1,243 @@
+﻿Der Buildvorgang wurde am 04.08.2013 04:23:41 gestartet.
+     1>Projekt "C:\Users\oliver\Desktop\pptm\putty.src\WINDOWS\MSVC\PUTTYGEN\puttygen.vcxproj" auf Knoten "3", Rebuild Ziel(e).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\import.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\..\import.c
+         import.c
+     1>c:\users\oliver\desktop\pptm\putty.src\import.c(337): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>c:\users\oliver\desktop\pptm\putty.src\import.c(405): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(311): Siehe Deklaration von 'sscanf'
+     1>c:\users\oliver\desktop\pptm\putty.src\import.c(922): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>c:\users\oliver\desktop\pptm\putty.src\import.c(1056): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>c:\users\oliver\desktop\pptm\putty.src\import.c(1111): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+     1>c:\users\oliver\desktop\pptm\putty.src\import.c(1127): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191): Siehe Deklaration von 'strncpy'
+     1>c:\users\oliver\desktop\pptm\putty.src\import.c(1675): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\misc.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\..\misc.c
+         misc.c
+     1>c:\users\oliver\desktop\pptm\putty.src\misc.c(140): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+     1>c:\users\oliver\desktop\pptm\putty.src\misc.c(163): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+     1>c:\users\oliver\desktop\pptm\putty.src\misc.c(171): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+     1>c:\users\oliver\desktop\pptm\putty.src\misc.c(251): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(349): Siehe Deklaration von '_vsnprintf'
+     1>c:\users\oliver\desktop\pptm\putty.src\misc.c(508): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+     1>c:\users\oliver\desktop\pptm\putty.src\misc.c(550): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\notiming.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\..\notiming.c
+         notiming.c
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\sshaes.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\..\sshaes.c
+         sshaes.c
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\sshbn.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\..\sshbn.c
+         sshbn.c
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\sshdes.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\..\sshdes.c
+         sshdes.c
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\sshdss.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\..\sshdss.c
+         sshdss.c
+     1>c:\users\oliver\desktop\pptm\putty.src\sshdss.c(141): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshdss.c(148): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshdss.c(155): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshdss.c(162): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshdss.c(200): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshdss.c(203): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshdss.c(206): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\sshdssg.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\..\sshdssg.c
+         sshdssg.c
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\sshmd5.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\..\sshmd5.c
+         sshmd5.c
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\sshprime.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\..\sshprime.c
+         sshprime.c
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\sshpubk.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\..\sshpubk.c
+         sshpubk.c
+     1>c:\users\oliver\desktop\pptm\putty.src\sshpubk.c(165): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshpubk.c(206): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshpubk.c(244): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshpubk.c(367): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshpubk.c(635): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshpubk.c(809): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshpubk.c(884): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshpubk.c(965): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshpubk.c(1146): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshpubk.c(1182): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\sshrand.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\..\sshrand.c
+         sshrand.c
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\sshrsa.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\..\sshrsa.c
+         sshrsa.c
+     1>c:\users\oliver\desktop\pptm\putty.src\sshrsa.c(338): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshrsa.c(346): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshrsa.c(381): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshrsa.c(384): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshrsa.c(385): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191): Siehe Deklaration von 'strncpy'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshrsa.c(390): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191): Siehe Deklaration von 'strncpy'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshrsa.c(785): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshrsa.c(788): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\oliver\desktop\pptm\putty.src\sshrsa.c(791): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\sshrsag.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\..\sshrsag.c
+         sshrsag.c
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\sshsh256.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\..\sshsh256.c
+         sshsh256.c
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\sshsh512.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\..\sshsh512.c
+         sshsh512.c
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\sshsha.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\..\sshsha.c
+         sshsha.c
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\tree234.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\..\tree234.c
+         tree234.c
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\version.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\..\version.c
+         version.c
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\winctrls.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\winctrls.c
+         winctrls.c
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winctrls.c(418): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winctrls.c(435): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191): Siehe Deklaration von 'strncpy'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winctrls.c(1952): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191): Siehe Deklaration von 'strncpy'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winctrls.c(1963): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191): Siehe Deklaration von 'strncpy'
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\winhelp.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\winhelp.c
+         winhelp.c
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winhelp.c(37): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winhelp.c(38): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winhelp.c(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winhelp.c(44): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winhelp.c(51): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winhelp.c(52): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\winmisc.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\winmisc.c
+         winmisc.c
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winmisc.c(14): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdlib.h(449): Siehe Deklaration von 'getenv'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winmisc.c(20): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191): Siehe Deklaration von 'strncpy'
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\winnoise.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\winnoise.c
+         winnoise.c
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winnoise.c(26): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(115): Siehe Deklaration von 'strcat'
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\winnojmp.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\winnojmp.c
+         winnojmp.c
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\winpgen.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\winpgen.c
+         winpgen.c
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winpgen.c(384): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winpgen.c(395): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winpgen.c(410): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winpgen.c(451): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winpgen.c(782): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winpgen.c(1126): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winpgen.c(1155): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winpgen.c(1203): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\winstore.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\winstore.c
+         winstore.c
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winstore.c(300): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winstore.c(301): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(115): Siehe Deklaration von 'strcat'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winstore.c(303): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winstore.c(511): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(115): Siehe Deklaration von 'strcat'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winstore.c(518): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(115): Siehe Deklaration von 'strcat'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winstore.c(538): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(115): Siehe Deklaration von 'strcat'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winstore.c(548): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(115): Siehe Deklaration von 'strcat'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winstore.c(678): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+     1>c:\users\oliver\desktop\pptm\putty.src\windows\winstore.c(689): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110): Siehe Deklaration von 'strcpy'
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\wintime.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\wintime.c
+         wintime.c
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze /analyze:log ".\Debug\winutils.c.nativecodeanalysis.xml" /errorReport:prompt   /analyze:quiet ..\..\winutils.c
+         winutils.c
+       ResourceCompile:
+         C:\Program Files\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0809" /I\Users\oliver\Desktop\pptm\putty.src\windows /nologo /fo".\Debug\puttygen.res" ..\..\puttygen.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\puttygen.exe" /INCREMENTAL /NOLOGO comctl32.lib imm32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\puttygen.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\puttygen.lib" /MACHINE:X86 /SAFESEH .\Debug\puttygen.res
+         .\Debug\import.obj
+         .\Debug\misc.obj
+         .\Debug\notiming.obj
+         .\Debug\sshaes.obj
+         .\Debug\sshbn.obj
+         .\Debug\sshdes.obj
+         .\Debug\sshdss.obj
+         .\Debug\sshdssg.obj
+         .\Debug\sshmd5.obj
+         .\Debug\sshprime.obj
+         .\Debug\sshpubk.obj
+         .\Debug\sshrand.obj
+         .\Debug\sshrsa.obj
+         .\Debug\sshrsag.obj
+         .\Debug\sshsh256.obj
+         .\Debug\sshsh512.obj
+         .\Debug\sshsha.obj
+         .\Debug\tree234.obj
+         .\Debug\version.obj
+         .\Debug\winctrls.obj
+         .\Debug\winhelp.obj
+         .\Debug\winmisc.obj
+         .\Debug\winnoise.obj
+         .\Debug\winnojmp.obj
+         .\Debug\winpgen.obj
+         .\Debug\winstore.obj
+         .\Debug\wintime.obj
+         .\Debug\winutils.obj
+     1>import.obj : warning LNK4075: /EDITANDCONTINUE wird aufgrund der Angabe von /SAFESEH ignoriert.
+         puttygen.vcxproj -> C:\Users\oliver\Desktop\pptm\putty.src\WINDOWS\MSVC\PUTTYGEN\.\Debug\puttygen.exe
+     1>misc.c(394): warning : C28182: Dereferenzierender NULL-Zeiger. 'newbuf' enthält den gleichen NULL-Wert wie 'ch->tail'. In Zeile 385 finden Sie einen früheren Ort, an dem dies vorkommen kann.
+     1>sshrand.c(240): warning : C6385: Lesen ungültiger Daten von 'pool.pool': die lesbare Größe beträgt '1200' Byte, es können jedoch 'pool.poolpos++' Byte gelesen werden.
+     1>tree234.c(830): warning : C6011: Dereferenzierender NULL-Zeiger 'n'. 
+     1>tree234.c(830): warning : C6385: Lesen ungültiger Daten von 'n->elems': die lesbare Größe beträgt '12' Byte, es können jedoch '-4' Byte gelesen werden.
+     1>winctrls.c(243): warning : C6001: Nicht initialisierter Speicher 'r' wird verwendet.
+     1>winpgen.c(1396): warning : C28251: Inkonsistente Anmerkung für 'WinMain': diese Instanz verfügt über keine Anmerkungen. Siehe c:\program files\windows kits\8.0\include\um\winbase.h(2188). 
+     1>winstore.c(372): warning : C28182: Dereferenzierender NULL-Zeiger. 'q' enthält den gleichen NULL-Wert wie 'oldstyle'. In Zeile 369 finden Sie einen früheren Ort, an dem dies vorkommen kann.
+     1>Die Erstellung des Projekts "C:\Users\oliver\Desktop\pptm\putty.src\WINDOWS\MSVC\PUTTYGEN\puttygen.vcxproj" ist abgeschlossen, Rebuild Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:59.30
