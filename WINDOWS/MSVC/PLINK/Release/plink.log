@@ -1,7 +1,7 @@
-﻿Der Buildvorgang wurde am 16.08.2013 17:18:47 gestartet.
-     1>Projekt "Z:\pp\collab\vadmin\sshclient\putty.src_o\WINDOWS\MSVC\PLINK\plink.vcxproj" auf Knoten "2", Build Ziel(e).
+﻿Der Buildvorgang wurde am 01.10.2013 16:33:10 gestartet.
+     1>Projekt "Z:\pp\collab\vadmin\sshclient\Putty\WINDOWS\MSVC\PLINK\plink.vcxproj" auf Knoten "3", Build Ziel(e).
      1>ClCompile:
-         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\\" /Fd".\Release\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\be_all_s.c ..\..\..\cmdline.c ..\..\..\cproxy.c ..\..\..\ldisc.c ..\..\..\logging.c ..\..\..\misc.c ..\..\..\pgssapi.c ..\..\..\pinger.c ..\..\..\portfwd.c ..\..\..\proxy.c ..\..\..\raw.c ..\..\..\rlogin.c ..\..\..\settings.c ..\..\..\ssh.c ..\..\..\sshgssc.c ..\..\..\sshpubk.c ..\..\..\sshrand.c ..\..\..\telnet.c ..\..\..\timing.c ..\..\..\wildcard.c ..\..\..\x11fwd.c ..\..\wincons.c ..\..\windefs.c ..\..\wingss.c ..\..\winhandl.c ..\..\winmisc.c ..\..\winnet.c ..\..\winnoise.c ..\..\winpgntc.c ..\..\winplink.c ..\..\winproxy.c ..\..\winser.c ..\..\winstore.c ..\..\wintime.c ..\..\winx11.c
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\./ /I..\..\..\charset/ /I..\..\..\windows/ /I..\..\..\unix/ /I..\..\..\macosx/ /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\\" /Fd".\Release\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\be_all_s.c ..\..\..\cmdline.c ..\..\..\cproxy.c ..\..\..\ldisc.c ..\..\..\logging.c ..\..\..\misc.c ..\..\..\pgssapi.c ..\..\..\pinger.c ..\..\..\portfwd.c ..\..\..\proxy.c ..\..\..\raw.c ..\..\..\rlogin.c ..\..\..\settings.c ..\..\..\ssh.c ..\..\..\sshaes.c ..\..\..\ssharcf.c ..\..\..\sshblowf.c ..\..\..\sshbn.c ..\..\..\sshcrc.c ..\..\..\sshcrcda.c ..\..\..\sshdes.c ..\..\..\sshdh.c ..\..\..\sshdss.c ..\..\..\sshgssc.c ..\..\..\sshmd5.c ..\..\..\sshpubk.c ..\..\..\sshrand.c ..\..\..\sshrsa.c ..\..\..\sshsh256.c ..\..\..\sshsh512.c ..\..\..\sshsha.c ..\..\..\sshzlib.c ..\..\..\telnet.c ..\..\..\timing.c ..\..\..\tree234.c ..\..\..\version.c ..\..\..\wildcard.c ..\..\wincons.c ..\..\windefs.c ..\..\wingss.c ..\..\winhandl.c ..\..\winmisc.c ..\..\winnet.c ..\..\winnoise.c ..\..\winnojmp.c ..\..\winpgntc.c ..\..\winplink.c ..\..\winproxy.c ..\..\winser.c ..\..\winstore.c ..\..\wintime.c ..\..\winx11.c ..\..\..\x11fwd.c
          be_all_s.c
          cmdline.c
      1>..\..\..\cmdline.c(109): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -142,7 +142,32 @@
                  C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(311): Siehe Deklaration von 'sscanf'
      1>..\..\..\ssh.c(8912): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(311): Siehe Deklaration von 'sscanf'
+         sshaes.c
+         ssharcf.c
+         sshblowf.c
+         sshbn.c
+         sshcrc.c
+         sshcrcda.c
+         Code wird generiert...
+         Kompilieren...
+         sshdes.c
+         sshdh.c
+         sshdss.c
+     1>..\..\..\sshdss.c(141): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>..\..\..\sshdss.c(148): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>..\..\..\sshdss.c(155): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>..\..\..\sshdss.c(162): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>..\..\..\sshdss.c(200): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>..\..\..\sshdss.c(203): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>..\..\..\sshdss.c(206): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
          sshgssc.c
+         sshmd5.c
          sshpubk.c
      1>..\..\..\sshpubk.c(165): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(218): Siehe Deklaration von 'fopen'
@@ -165,26 +190,42 @@
      1>..\..\..\sshpubk.c(1182): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(218): Siehe Deklaration von 'fopen'
          sshrand.c
+         sshrsa.c
+     1>..\..\..\sshrsa.c(338): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>..\..\..\sshrsa.c(346): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>..\..\..\sshrsa.c(381): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>..\..\..\sshrsa.c(384): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>..\..\..\sshrsa.c(385): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(191): Siehe Deklaration von 'strncpy'
+     1>..\..\..\sshrsa.c(390): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(191): Siehe Deklaration von 'strncpy'
+     1>..\..\..\sshrsa.c(785): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>..\..\..\sshrsa.c(788): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>..\..\..\sshrsa.c(791): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         sshsh256.c
+         sshsh512.c
+         sshsha.c
+         sshzlib.c
          telnet.c
      1>..\..\..\telnet.c(378): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
          timing.c
+         tree234.c
+         version.c
          wildcard.c
-         Code wird generiert...
-         Kompilieren...
-         x11fwd.c
-     1>..\..\..\x11fwd.c(244): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357): Siehe Deklaration von 'sprintf'
-     1>..\..\..\x11fwd.c(315): warning C4244: 'Funktion': Konvertierung von 'time_t' in 'int', möglicher Datenverlust
-     1>..\..\..\x11fwd.c(372): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(218): Siehe Deklaration von 'fopen'
-     1>..\..\..\x11fwd.c(601): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(311): Siehe Deklaration von 'sscanf'
          wincons.c
          windefs.c
      1>..\..\windefs.c(13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
      1>..\..\windefs.c(27): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
          wingss.c
      1>..\..\wingss.c(94): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         Code wird generiert...
+         Kompilieren...
          winhandl.c
          winmisc.c
      1>..\..\winmisc.c(14): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -213,6 +254,7 @@
                  C:\Program Files\Microsoft Visual Studio 11.0\VC\include\string.h(191): Siehe Deklaration von 'strncpy'
          winnoise.c
      1>..\..\winnoise.c(26): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         winnojmp.c
          winpgntc.c
          winplink.c
      1>..\..\winplink.c(311): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -240,7 +282,17 @@
      1>..\..\winstore.c(689): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
          wintime.c
          winx11.c
+         x11fwd.c
+     1>..\..\..\x11fwd.c(244): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357): Siehe Deklaration von 'sprintf'
+     1>..\..\..\x11fwd.c(315): warning C4244: 'Funktion': Konvertierung von 'time_t' in 'int', möglicher Datenverlust
+     1>..\..\..\x11fwd.c(372): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>..\..\..\x11fwd.c(601): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(311): Siehe Deklaration von 'sscanf'
          Code wird generiert...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /l"0x0809" /I\Users\oliver\Desktop\pptm\putty.src\windows /nologo /fo".\Release\plink.res" ..\..\plink.rc 
        Link:
          C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\plink.exe" /INCREMENTAL:NO /NOLOGO comctl32.lib imm32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Release\plink.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\plink.lib" /MACHINE:X86 /SAFESEH .\Release\plink.res
          .\Release\be_all_s.obj
@@ -296,9 +348,9 @@
          .\Release\wintime.obj
          .\Release\winx11.obj
          .\Release\x11fwd.obj
-         plink.vcxproj -> Z:\pp\collab\vadmin\sshclient\putty.src_o\WINDOWS\MSVC\PLINK\.\Release\plink.exe
-     1>Die Erstellung des Projekts "Z:\pp\collab\vadmin\sshclient\putty.src_o\WINDOWS\MSVC\PLINK\plink.vcxproj" ist abgeschlossen, Build Ziel(e).
+         plink.vcxproj -> Z:\pp\collab\vadmin\sshclient\Putty\WINDOWS\MSVC\PLINK\.\Release\plink.exe
+     1>Die Erstellung des Projekts "Z:\pp\collab\vadmin\sshclient\Putty\WINDOWS\MSVC\PLINK\plink.vcxproj" ist abgeschlossen, Build Ziel(e).
 
 Build erfolgreich.
 
-Verstrichene Zeit 00:01:07.62
+Verstrichene Zeit 00:02:09.98

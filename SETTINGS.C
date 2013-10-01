@@ -606,7 +606,7 @@ void load_open_settings(void *sesskey, Config *cfg)
 	/* This is two values for backward compatibility with 0.50/0.51 */
 	int pingmin, pingsec;
 	gppi(sesskey, "PingInterval", 0, &pingmin);
-	gppi(sesskey, "PingIntervalSecs", 0, &pingsec);
+	gppi(sesskey, "PingIntervalSecs", 30, &pingsec);
 	cfg->ping_interval = pingmin * 60 + pingsec;
     }
     gppi(sesskey, "TCPNoDelay", 1, &cfg->tcp_nodelay);

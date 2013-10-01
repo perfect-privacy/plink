@@ -13,7 +13,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "putty", "PUTTY\putty.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "puttygen", "PUTTYGEN\puttygen.vcxproj", "{D94334F2-8FA6-4607-BED9-6B8785756988}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "puttytel", "PUTTYTEL\puttytel.vcxproj", "{C8A29DAF-D420-45CA-BE4E-5C779EDFD195}"
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "puttytel", "puttytel\puttytel.dsp", "{4425870D-0AFB-4B80-A4F5-AB7E49F24A58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,12 +58,6 @@ Global
 		{D94334F2-8FA6-4607-BED9-6B8785756988}.Release|Win32.Build.0 = Release|Win32
 		{D94334F2-8FA6-4607-BED9-6B8785756988}.Template|Win32.ActiveCfg = Template|Win32
 		{D94334F2-8FA6-4607-BED9-6B8785756988}.Template|Win32.Build.0 = Template|Win32
-		{C8A29DAF-D420-45CA-BE4E-5C779EDFD195}.Debug|Win32.ActiveCfg = Debug|Win32
-		{C8A29DAF-D420-45CA-BE4E-5C779EDFD195}.Debug|Win32.Build.0 = Debug|Win32
-		{C8A29DAF-D420-45CA-BE4E-5C779EDFD195}.Release|Win32.ActiveCfg = Release|Win32
-		{C8A29DAF-D420-45CA-BE4E-5C779EDFD195}.Release|Win32.Build.0 = Release|Win32
-		{C8A29DAF-D420-45CA-BE4E-5C779EDFD195}.Template|Win32.ActiveCfg = Template|Win32
-		{C8A29DAF-D420-45CA-BE4E-5C779EDFD195}.Template|Win32.Build.0 = Template|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
